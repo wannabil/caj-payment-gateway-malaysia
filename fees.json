@@ -1,0 +1,152 @@
+{
+  "checked_on": "2026-11-17",
+  "currency": "MYR",
+  "note": "Rates read on each vendor's own pricing page. Not affiliated with any gateway. Re-check the source before deciding.",
+  "calculator": "https://miraclemikhael.com/ms/alat/kalkulator-caj-fpx",
+  "gateways": [
+    {
+      "id": "billplz",
+      "name": "Billplz Basic",
+      "yearly_fee_rm": 0,
+      "sst_on_fees": false,
+      "source": "https://main.billplz.com/pricing",
+      "note": "QR/e-wallet rate needs a separate application",
+      "rates": {
+        "fpx_b2c": {
+          "percent": 0,
+          "fixed_rm": 1.25
+        },
+        "fpx_b2b": {
+          "percent": 0,
+          "fixed_rm": 3
+        },
+        "card": {
+          "percent": 1.8,
+          "fixed_rm": 0
+        },
+        "duitnow_qr": {
+          "percent": 1.5,
+          "fixed_rm": 0
+        }
+      }
+    },
+    {
+      "id": "billplz-standard",
+      "name": "Billplz Standard",
+      "yearly_fee_rm": 999,
+      "sst_on_fees": false,
+      "source": "https://main.billplz.com/pricing",
+      "note": "RM999/year plan",
+      "rates": {
+        "fpx_b2c": {
+          "percent": 0,
+          "fixed_rm": 0.75
+        },
+        "fpx_b2b": {
+          "percent": 0,
+          "fixed_rm": 2
+        },
+        "card": {
+          "percent": 1.5,
+          "fixed_rm": 0
+        },
+        "duitnow_qr": {
+          "percent": 1.5,
+          "fixed_rm": 0
+        }
+      }
+    },
+    {
+      "id": "toyyibpay",
+      "name": "toyyibPay Standard",
+      "yearly_fee_rm": 0,
+      "sst_on_fees": false,
+      "source": "https://www.toyyibpay.com/pricing-plans/",
+      "note": "Card onboarding RM100 + RM100/year from year 2; QR listed as '1.00% or RM 1.00' (1% used)",
+      "rates": {
+        "fpx_b2c": {
+          "percent": 0,
+          "fixed_rm": 1
+        },
+        "fpx_b2b": {
+          "percent": 0,
+          "fixed_rm": 2
+        },
+        "card": {
+          "percent": 1.5,
+          "fixed_rm": 0
+        },
+        "duitnow_qr": {
+          "percent": 1,
+          "fixed_rm": 0
+        }
+      }
+    },
+    {
+      "id": "chip",
+      "name": "CHIP",
+      "yearly_fee_rm": 0,
+      "sst_on_fees": true,
+      "source": "https://www.chip-in.asia/pricing",
+      "note": "Credit card 2.0%, debit 1.0%; fees subject to 8% SST",
+      "rates": {
+        "fpx_b2c": {
+          "percent": 0,
+          "fixed_rm": 1
+        },
+        "fpx_b2b": {
+          "percent": 0,
+          "fixed_rm": 2
+        },
+        "card": {
+          "percent": 2,
+          "fixed_rm": 0
+        },
+        "duitnow_qr": {
+          "percent": 1,
+          "fixed_rm": 0
+        }
+      }
+    },
+    {
+      "id": "hitpay",
+      "name": "HitPay",
+      "yearly_fee_rm": 0,
+      "sst_on_fees": false,
+      "source": "https://hitpayapp.com/my/pricing",
+      "note": "No B2B FPX rate listed",
+      "rates": {
+        "fpx_b2c": {
+          "percent": 1.8,
+          "fixed_rm": 0.4
+        },
+        "card": {
+          "percent": 1.2,
+          "fixed_rm": 1
+        },
+        "duitnow_qr": {
+          "percent": 1.2,
+          "fixed_rm": 0
+        }
+      }
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "yearly_fee_rm": 0,
+      "sst_on_fees": false,
+      "source": "https://stripe.com/en-my/pricing",
+      "note": "Domestic cards and FPX; no DuitNow QR or B2B FPX rate listed",
+      "rates": {
+        "fpx_b2c": {
+          "percent": 3,
+          "fixed_rm": 1
+        },
+        "card": {
+          "percent": 3,
+          "fixed_rm": 1
+        }
+      }
+    }
+  ]
+}

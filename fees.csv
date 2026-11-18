@@ -1,0 +1,22 @@
+gateway_id,gateway,method,percent,fixed_rm,yearly_fee_rm,sst_on_fees,source,checked_on
+billplz,Billplz Basic,fpx_b2c,0,1.25,0,False,https://main.billplz.com/pricing,2026-11-17
+billplz,Billplz Basic,fpx_b2b,0,3,0,False,https://main.billplz.com/pricing,2026-11-17
+billplz,Billplz Basic,card,1.8,0,0,False,https://main.billplz.com/pricing,2026-11-17
+billplz,Billplz Basic,duitnow_qr,1.5,0,0,False,https://main.billplz.com/pricing,2026-11-17
+billplz-standard,Billplz Standard,fpx_b2c,0,0.75,999,False,https://main.billplz.com/pricing,2026-11-17
+billplz-standard,Billplz Standard,fpx_b2b,0,2,999,False,https://main.billplz.com/pricing,2026-11-17
+billplz-standard,Billplz Standard,card,1.5,0,999,False,https://main.billplz.com/pricing,2026-11-17
+billplz-standard,Billplz Standard,duitnow_qr,1.5,0,999,False,https://main.billplz.com/pricing,2026-11-17
+toyyibpay,toyyibPay Standard,fpx_b2c,0,1,0,False,https://www.toyyibpay.com/pricing-plans/,2026-11-17
+toyyibpay,toyyibPay Standard,fpx_b2b,0,2,0,False,https://www.toyyibpay.com/pricing-plans/,2026-11-17
+toyyibpay,toyyibPay Standard,card,1.5,0,0,False,https://www.toyyibpay.com/pricing-plans/,2026-11-17
+toyyibpay,toyyibPay Standard,duitnow_qr,1,0,0,False,https://www.toyyibpay.com/pricing-plans/,2026-11-17
+chip,CHIP,fpx_b2c,0,1,0,True,https://www.chip-in.asia/pricing,2026-11-17
+chip,CHIP,fpx_b2b,0,2,0,True,https://www.chip-in.asia/pricing,2026-11-17
+chip,CHIP,card,2,0,0,True,https://www.chip-in.asia/pricing,2026-11-17
+chip,CHIP,duitnow_qr,1,0,0,True,https://www.chip-in.asia/pricing,2026-11-17
+hitpay,HitPay,fpx_b2c,1.8,0.4,0,False,https://hitpayapp.com/my/pricing,2026-11-17
+hitpay,HitPay,card,1.2,1,0,False,https://hitpayapp.com/my/pricing,2026-11-17
+hitpay,HitPay,duitnow_qr,1.2,0,0,False,https://hitpayapp.com/my/pricing,2026-11-17
+stripe,Stripe,fpx_b2c,3,1,0,False,https://stripe.com/en-my/pricing,2026-11-17
+stripe,Stripe,card,3,1,0,False,https://stripe.com/en-my/pricing,2026-11-17
